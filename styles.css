@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+form{
+    position: absolute;
+    display:table;
+    width: 350px;
+    height: 120px;
+    margin-top: 400px;
+    margin-left: 700px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.emaildiv,.passdiv,.check{
+    display: table-row;
+    height: 40px;
+}
+
+label,input,.icon{
+    display: table-cell;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.submitdiv,.check{
+    display: flex;
+    height: 30px;
+    padding-left: 100px;
+}
+
+.img{
+    background-image: url("chev.webp");
+    align-content: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 1000px;
+}
